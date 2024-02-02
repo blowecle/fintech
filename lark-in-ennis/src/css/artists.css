@@ -1,0 +1,8 @@
+@media screen and (max-width: 599px){
+    .artists-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: 100px;
+    }
+}

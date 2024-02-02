@@ -1,0 +1,70 @@
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 599px) {
+    .artist-card {
+        width: 100vw;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: url('https://i.pinimg.com/originals/59/4e/4d/594e4d065a19d61dff205e6216351899.jpg');
+        background-size: 100% 100%;
+    }
+
+    .artist-image {
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+    .artist-description{
+        width: calc(100vw - 40px);
+        font-family: LarkFont;
+        color: white;
+    }
+
+    .single-preview-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .artist-preview-name{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: LarkFont;
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .preview-card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: calc(100vw - 40px);
+    }
+    
+    .artist-preview-image {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .artist-info{
+        width: calc(100vw - 40px);
+        font-family: LarkFont;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .youtube-embed{
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .youtube{
+        width: 100%;
+    }
+}
